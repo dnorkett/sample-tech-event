@@ -25,7 +25,7 @@
     </header>
     <section id="ticket-form">
         <div class="wrap">
-            <h1>Get your tickets!</h1>
+            <h1>Get y<span id="easterEggLetter">o</span>ur tickets!</h1>
             <form method="post" action="">
                 <h4>Your Info</h4>
                 <label for="name">Name</label>
@@ -47,8 +47,20 @@
             </form>
         </div>
     </section>
+    
+  <!-- Hidden modal easter egg-->
+  <div class="modal modalHidden">
+    <div class="modalContainer">
+      <p>Enter Your Code</p>
+      <input id="modalInput" type="text">
+      <span class="close">x</span>
+    </div>
+  </div>
+
     <footer>
         <p>&copy; 2019</p>
     </footer>
+
+    <script src='js/modal.js'></script>
 </body>
 </html>

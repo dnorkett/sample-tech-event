@@ -325,6 +325,56 @@ footer {
     border-radius: 6px;
 } 
 
+/*** Modal easter egg ***/
+.modal {
+    position: fixed;
+    top: 150px;
+    left: calc(50% - 150px);
+    z-index: 999;
+    background-color: #fe5f55;
+    text-align: center;
+    width: 300px;
+    height: 175px;
+    padding: 0;    
+}
+
+.modalContainer {
+    margin-top: 45px;
+    height: 100%;        
+}
+
+.modal input {
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    width: 80px;
+}
+
+.modal p {
+    color: white;
+    font-weight: 600;
+}
+
+.modal .close {
+    font-weight: 800;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#easterEggLetter:hover, .close:hover {
+    cursor: pointer;
+}
+
+.modalHidden {    
+    display:none;
+}
+
+.modalShown {
+    display:block;
+}
+ 
 
 /******* MEDIA QUERIES *******/
 
