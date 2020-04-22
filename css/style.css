@@ -220,6 +220,7 @@ section#speakers h3 {
 }
 
 .speaker-image {
+    text-align: center;
     width: 50%;
     float:left;
 }
@@ -237,7 +238,7 @@ section#speakers h3 {
 
 .speaker-text {
     width: 50%;
-    float: left;
+    float: right;
 }
 
 .speaker-text div {
@@ -453,6 +454,4 @@ footer {
         box-shadow: none;
     }
 }
-
-
 
