@@ -374,6 +374,11 @@ footer {
 .modalShown {
     display:block;
 }
+
+#timeLeft {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
  
 
 /******* MEDIA QUERIES *******/
