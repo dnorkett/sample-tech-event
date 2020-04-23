@@ -379,7 +379,33 @@ footer {
     font-weight: 700;
     font-size: 1.75rem;
 }
- 
+
+/******* RATINGS PAGE *******/
+.container {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.speakerUl {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speakerUl li {
+    display: inline;
+    background-color: #fe5f55;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+    margin: 10px 25px;
+    width: 170px;    
+    cursor: pointer;
+}
 
 /******* MEDIA QUERIES *******/
 
@@ -471,10 +497,6 @@ footer {
 
     #header {
         padding: 80px 10px;
-    }
-
-    .button {
-        padding: 10px;
     }
 
     .three-points-section {
